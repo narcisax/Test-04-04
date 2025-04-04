@@ -1,0 +1,46 @@
+###Domanda 4: 
+Una classe è una struttura che contiene attributi e metodi, cioè i dati e il loro comportamento.  
+Rappresenta un modo per la creazione di oggetti, che rappresentano l'istanza di quella classe.  
+Una volta creata una classe con la keyword "class", vengono assegnati gli attributi di classe, se necessari,  
+che andranno a rappresentare le proprietà appartenenti a tutta la classe (quindi a tutti gli oggetti della classe).  
+Dopodichè si va con il costrutture _init_ a inizializzare l'oggetto appartenente alla classe, 
+assegnando sempre il parametro self tra parentesi (), che rappresenta la prima istanza della classe, cioè quella corrente.
+-----------------------------------------------------------------------------------------------------
+### Domanda 6: Una collezione o aggregazione di dati rappresenta un insieme di dati e può essere di vari tipi: 
+1. Liste: sono delle collezioni di dati ordinate e composte da vari tipi di dati. Sono identificabili con le parentesi  
+quadre e visivamente rappresentano un insieme di valori separati da virgole che hanno un indice, ovvero una posizione che parte sempre da 0.  
+2. Tuple: sono delle strutture molto simili alle liste ma i valori al loro interno 
+sono immutabili, quindi non si possono modificare o aggiungere oggetti se non utilizzando degli escamotage come quello di istanziare 
+prima una tupla vuota  e poi successivamente fornirgli dei valori. 
+3. Insiemi: sono delle strutture non ordinate che possono contenere dei valori unici, non duplicati. Contengono tipi di dati set  e possono essere utilizzati con vari tipi di operazioni come Union, Intersect, Difference o Intersect difference. 
+4. Dizionari: che contengono chiavi e i rispettivi valori.
+----------------------------------------------------------------------------------------------
+###Domanda 12:
+Le tre regole fondamentali dell'OOP sono: 1. Incapsulamento: la capacità di nascondere dei pezzi di codice al sistema e al codice 
+stesso. Ad esempio se eseguiamo un print(1+1),  stiamo andando ad isolare ciò che avviene all'interno delle parentesi 
+2. Polimorfismo: la capacità di cambiare forma o comportamento ad un elemento.  Ad esempio l'operatore "+" può unire sia due numeri 
+che due stringhe. 
+3. Ereditarietà: la capacità di creare un legame gerarchico tra gli oggetti.  Ad esempio nel caso di un addizione, 
+a partire da due addendi ne ricaviamo uno solo che è il derivante da quell'operazione.
+---------------------------------------------------------------
+###Domanda 14:
+Le funzioni sono dei blocchi di codice autonomi che vengono creati per eseguire determinate ooperazioni. 
+L'obiettivo delle funzioni è di creare qualcosa che non abbia bisogno di altri elementi per funzionare.  
+Questo rappresenta esattamente il motivo per cui incarnano il concetto di astrazione, cioè la capacità di dividere 
+l'azione e il corpo di un elemento.  Ad esempio, nel caso della funzione, una volta compilata, 
+possiamo richiamarla senza il bisogno di andare a riscrivere il suo codice.
+--------------------------------------------------------------------------------
+###Domanda 16: 
+Il controllo di flusso rappresenta l'esecuzioni del programma sulla base di alcune condizioni. 
+Ci sono le condizioni e poi i cicli.  
+1) Le istruzioni con condizioni vanno a verificare se una condizione è vera oppure no.  
+Fanno parte di questa famiglia le istruzioni IF-ELIF-ELSE e il MATCH. In particolare, IF verifica se una condizione è vera,  
+se è vera allora esegue quello che gli viene detto; ELSE rappresenta una sorta di altrimenti, se la condizione precedente è falsa,  
+allora esegue quello che c'è scritto; ELIF invece si usa tra i due per andare a verificare ulteriori condizioni.  
+Il MATCH invece è un'istruzione che va confrontare il valore di una variabili con vari case; quando trova una corrispondenza allora 
+esegue il blocco di codice al suo interno. Alla fine dell'istruzione vi è un case_: che rappresenta il momento in cui  non trova 
+corrispondenza ed esce dall'istruzione. 
+2) I cicli invece sono istruzioni che si ripetono finchè si verifica una condizione. 
+i sono il ciclo WHILE e il ciclo FOR: Il ciclo WHILE si ripete finchè è vera una condizione e viene utilizzato quando non sappiamo per quante volte si ripeterà l'istruzione. 
+Quando non è vera la condizione, il blocco di codice al suo interno viene eseguito. Il ciclo FOR si ripete per ogni elemento dell'iterazione,  cioè della sequenza e solitamente 
+viene utilizzatp quando vi è un numero definito di volte in cui si ripeterà. Per entrambi ci sarà sempre una condizione di ripetizione e una di interruzione.
